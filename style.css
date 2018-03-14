@@ -1,0 +1,67 @@
+html, body, div {
+  margin: 0px;
+  letter-spacing: 2px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+}
+
+.header {
+  color: white;
+  background: black;
+}
+
+.banner {
+  /* display: flex; */
+  justify-content: center;
+  background: cyan;
+  color: black;
+  font-size: 1.3em;
+}
+
+button {
+  margin: 0;
+  padding: 15px;
+  color: black;
+  border: none;
+  background: cyan;
+  cursor: pointer;
+  transition: all 1s;
+}
+
+button:focus {
+  outline:0;
+}
+
+button:hover {
+  background: black;
+  color: white;
+}
+
+#answer {
+  margin: 15px;
+  display: inline-block;
+  width: 200px;
+}
+
+.square {
+  background: yellow;
+  height: 150px;
+  margin: 15px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+#selected {
+  font-size: 2em;
+}
